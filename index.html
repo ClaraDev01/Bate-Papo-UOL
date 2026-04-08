@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bate-Papo UOL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Logo UOL">
+        <div id="btn-participantes">
+            <i class="fa-solid fa-user-group"></i>
+        </div>
+    </header>
+
+    <main id="chat">
+        <!-- mensagens aparecem aqui via JS -->
+    </main>
+
+    <div id="overlay"></div>
+    <aside id="menu-lateral">
+        <p>Escolha um contato para enviar mensagem:</p>
+        <div id="lista-participantes"></div>
+        <p>Escolha a visibilidade:</p>
+        <div id="lista-visibilidade">
+            <div class="opcao-visibilidade selecionado" data-tipo="message" data-para="Todos">
+                <i class="fa-solid fa-lock-open"></i> Público <span class="check">✓</span>
+            </div>
+            <div class="opcao-visibilidade" data-tipo="private_message" data-para="Todos">
+                <i class="fa-solid fa-lock"></i> Reservadamente <span class="check">✓</span>
+            </div>
+        </div>
+    </aside>
+
+    <footer>
+        <div id="input-wrapper">
+            <input type="text" id="input-mensagem" placeholder="Escreva aqui...">
+            <button id="btn-enviar">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </div>
+        <p id="info-envio">Enviando para <span id="destinatario-info">Todos</span> (<span
+                id="visibilidade-info">público</span>)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
