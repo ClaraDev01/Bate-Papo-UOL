@@ -1,4 +1,4 @@
-const UUID = "9c431b8c-3332-4efd-8665-fe36cd78c208";
+const UUID = "38789041-30c6-4132-a52d-a62c8f9ed906";
 const API = "https://mock-api.driven.com.br/api/v6/uol";
 
 let nomeUsuario = "";
