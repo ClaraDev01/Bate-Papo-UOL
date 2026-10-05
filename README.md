@@ -1,10 +1,17 @@
 # 💬 Bate-Papo UOL
 
-A real-time chat application inspired by the classic Bate-Papo UOL. Built with JavaScript, HTML and CSS — no libraries used. Mobile version only.
+A chat application inspired by the classic Bate-Papo UOL.
+
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![Mobile Only](https://img.shields.io/badge/Mobile-Only-blue?style=for-the-badge)
+
+<br/>
 
 ## 🚀 Live Demo
 
-🔗 [Open Chat](https://bate-papo-uol.vercel.app)
+🔗 https://bate-papo-uol.vercel.app
+
+<br/>
 
 ## ✨ Features
 
@@ -17,15 +24,25 @@ A real-time chat application inspired by the classic Bate-Papo UOL. Built with J
 - 🎨 3 message types: status (gray), public (white) and private (pink)
 - 📱 Mobile-first design
 
+<br/>
+
 ## 🛠️ Tech Stack
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+<br/>
+
+## 🎯 Project Goal
+
+Build a chat application inspired by the classic Bate-Papo UOL, with public and private messaging, using JavaScript without external libraries.
+
+<br/>
+
 ## 📁 Project Structure
 
-```
+```text
 Bate-Papo-UOL/
 ├── index.html
 ├── style.css
@@ -33,6 +50,8 @@ Bate-Papo-UOL/
 └── images/
     └── logo.png
 ```
+
+<br/>
 
 ## 🎯 How to Use
 
@@ -42,17 +61,29 @@ Bate-Papo-UOL/
 4. Choose a specific contact to send a private message
 5. Toggle between public and private visibility
 
+<br/>
+
 ## 💻 How to Run Locally
 
-```
+```bash
 git clone https://github.com/ClaraDev01/Bate-Papo-UOL.git
 ```
 
 Then open `index.html` in your browser — no installation needed!
 
-## 📚 Developed as part of
+<br/>
 
-Driven Education Fullstack Bootcamp — rebuilt with cleaner code structure and improved organization.
+## 💡 Highlights
+
+- No libraries used
+- Mobile-first design
+- Cleaner code structure and improved organization
+
+<br/>
+
+## 📚 About
+
+Developed as part of the Driven Education Full-Stack Bootcamp and rebuilt with a cleaner code structure and improved organization.
 
 ---
 
